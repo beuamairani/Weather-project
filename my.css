@@ -41,3 +41,6 @@ label {
   position: relative;
   top: -12px;
 }
+.source {
+  text-align: left;
+}
