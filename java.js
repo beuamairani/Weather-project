@@ -1,8 +1,14 @@
 let now = new Date();
 let h4 = document.querySelector("h4");
 let hours = now.getHours();
-let minutes = now.getMinutes();
 
+if (hours < 10) {
+  hours = `0${hours}`;
+}
+let minutes = now.getMinutes();
+if (minutes < 0) {
+  minutes = `0${minutes}`;
+}
 let days = [
   "Sunday",
   "Monday",
