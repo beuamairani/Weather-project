@@ -14,12 +14,14 @@ h3 {
   margin-bottom: 110px;
   padding-bottom: 55px;
   font-size: 20px;
+  text-transform: capitalize;
 }
 label {
   padding-top: 20px;
 }
 
 .container {
+  border-radius: 2%;
   text-align: center;
   margin: 0 auto;
   padding-top: 35px;
@@ -28,9 +30,10 @@ label {
   height: 630px;
   margin-top: 40px;
   position: relative;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/026/801/original/cloud2.jpeg?1644299593");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/026/848/original/pexels-photo-844297.jpeg?1644363606");
   background-repeat: no-repeat;
-  color: white;
+  background-size: 100%;
+  color: black;
 }
 .picture {
   object-fit: cover;
@@ -49,4 +52,5 @@ label {
 }
 .source {
   text-align: left;
+  color: black;
 }
