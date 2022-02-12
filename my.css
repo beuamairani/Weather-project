@@ -11,13 +11,14 @@ h2 {
 }
 h3 {
   font-family: "Open Sans Condensed", sans-serif;
-  margin-bottom: 110px;
-  padding-bottom: 55px;
   font-size: 20px;
   text-transform: capitalize;
 }
 label {
   padding-top: 20px;
+}
+ul {
+  margin-bottom: 120px;
 }
 
 .container {
@@ -27,7 +28,7 @@ label {
   padding-top: 35px;
   display: block;
   border: 3px;
-  height: 630px;
+  height: 640px;
   margin-top: 40px;
   position: relative;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/026/848/original/pexels-photo-844297.jpeg?1644363606");
@@ -53,4 +54,5 @@ label {
 .source {
   text-align: left;
   color: black;
+  margin-top: 5px;
 }
