@@ -13,12 +13,16 @@ h3 {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 20px;
   text-transform: capitalize;
+  font-weight: lighter;
 }
 label {
   padding-top: 20px;
 }
 ul {
   margin-bottom: 120px;
+}
+li {
+  list-style-type: none;
 }
 
 .container {
@@ -28,7 +32,7 @@ ul {
   padding-top: 35px;
   display: block;
   border: 3px;
-  height: 640px;
+  height: 680px;
   margin-top: 40px;
   position: relative;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/026/848/original/pexels-photo-844297.jpeg?1644363606");
@@ -55,4 +59,23 @@ ul {
   text-align: left;
   color: black;
   margin-top: 5px;
+}
+.forcast {
+  margin-top: -80px;
+  margin-left: 260px;
+  font-weight: 250;
+}
+.newRow {
+  width: 100%;
+  display: table;
+}
+.newRow .col {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+.boxpic {
+  position: relative;
+  top: -05px;
+  left: -55px;
 }
