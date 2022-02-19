@@ -31,7 +31,11 @@ li {
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/483/original/pexels-pok-rie-139975.jpg?1645212147");
 }
-
+a {
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
 .container {
   border-radius: 2%;
   text-align: center;
