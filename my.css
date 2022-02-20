@@ -43,7 +43,7 @@ a {
   padding-top: 35px;
   display: block;
   border: 1px solid;
-  height: 650px;
+  height: 670px;
   margin-top: 40px;
   position: relative;
   background: rgba(0, 0, 0, 0.5);
@@ -71,7 +71,7 @@ a {
   color: black;
   margin-top: 5px;
 }
-.forcast {
+.information {
   margin-top: -80px;
   margin-left: 260px;
   font-weight: 250;
@@ -89,4 +89,8 @@ a {
   position: relative;
   top: -05px;
   left: -55px;
+}
+
+.weather-min {
+  color: rgb(194, 190, 190);
 }
