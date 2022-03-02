@@ -6,7 +6,7 @@ h1 {
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 80px;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
 }
@@ -14,7 +14,7 @@ h3 {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 25px;
   text-transform: capitalize;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 h4 {
   font-family: "Montserrat Alternates", sans-serif;
@@ -32,7 +32,7 @@ body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/483/original/pexels-pok-rie-139975.jpg?1645212147");
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: default;
 }
@@ -43,7 +43,7 @@ a {
   padding-top: 35px;
   display: block;
   border: 1px solid;
-  height: 680px;
+  height: 690px;
   margin-top: 40px;
   position: relative;
   background: rgba(0, 0, 0, 0.5);
@@ -61,10 +61,15 @@ a {
   margin: 0 auto;
   padding: 0%;
 }
+.temperature {
+  position: relative;
+  left: 32px;
+}
 .units {
   font-size: 19px;
   position: relative;
-  top: -12px;
+  top: -35px;
+  left: 15px;
 }
 .source {
   position: relative;
@@ -74,7 +79,6 @@ a {
 .information {
   margin-top: -80px;
   margin-left: 260px;
-  font-weight: 250;
 }
 .newRow {
   width: 100%;
@@ -84,6 +88,7 @@ a {
   display: table-cell;
   vertical-align: middle;
   float: none;
+  font-weight: bolder;
 }
 .boxpic {
   position: relative;
@@ -93,4 +98,11 @@ a {
 
 .weather-min {
   color: rgb(194, 190, 190);
+}
+.row {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bolder;
+}
+.search-button {
+  height: 5px;
 }
