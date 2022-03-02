@@ -72,9 +72,8 @@ a {
   left: 15px;
 }
 .source {
-  position: relative;
-  margin-left: 350px;
   color: WHITE;
+  text-align: center;
 }
 .information {
   margin-top: -80px;
