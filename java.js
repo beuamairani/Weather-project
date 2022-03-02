@@ -43,13 +43,14 @@ function displayForecast(response) {
         
           <img src="http://openweathermap.org/img/wn/${
             forecastDay.weather[0].icon
-          }@2x.png"/>
+          }@2x.png" width="85"/>
           <div class="weather-forecast-temperatures">
           <span class="weather-max"> ${Math.round(
             forecastDay.temp.max
           )}°</span> <span class="weather-min">${Math.round(
           forecastDay.temp.min
         )}°</span>
+       
           </div>
           </div>`;
     }
@@ -117,3 +118,5 @@ function displayCelsiusTemperature(event) {
 }
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+searchCity("South San Francisco");

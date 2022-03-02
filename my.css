@@ -12,7 +12,7 @@ h2 {
 }
 h3 {
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: capitalize;
   font-weight: lighter;
 }
@@ -32,7 +32,7 @@ body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/483/original/pexels-pok-rie-139975.jpg?1645212147");
 }
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   cursor: default;
 }
@@ -43,7 +43,7 @@ a {
   padding-top: 35px;
   display: block;
   border: 1px solid;
-  height: 660px;
+  height: 680px;
   margin-top: 40px;
   position: relative;
   background: rgba(0, 0, 0, 0.5);
@@ -67,9 +67,9 @@ a {
   top: -12px;
 }
 .source {
-  text-align: left;
-  color: black;
-  margin-top: 5px;
+  position: relative;
+  margin-left: 350px;
+  color: WHITE;
 }
 .information {
   margin-top: -80px;
